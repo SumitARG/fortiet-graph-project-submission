@@ -1,0 +1,30 @@
+.contxt-menu {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #555;
+    padding: 5px;
+    box-shadow: 1px 1px 4px #555;
+    font-family: sans-serif;
+  
+    .row{
+      padding: 5px;
+      border-bottom: 1px solid white;
+      cursor: pointer;
+      transition: ease-in 0.2s;
+      border-bottom: 1px solid #555;
+    }
+  
+    .clickable:hover{
+      background-color: #deea8f;
+      font-weight: bold;
+    }
+  
+    .delete:hover{
+      background-color: #eb9f9f;
+    }
+  
+    .close:hover{
+      background-color: black;
+      color: white;
+    }
+  }

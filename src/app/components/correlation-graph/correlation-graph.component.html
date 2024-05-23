@@ -1,0 +1,5 @@
+<div class="graph-div" (click)="showContext=false" #graphDiv></div>
+
+<app-context-menu [hidden]="!showContext" [nodeName]="getSelectedNodeInfo('name')"
+    [style.left]="contextMenuPosition.leftPosition" [style.top]="contextMenuPosition.topPosition" (onMenuClose)="closeMenu()" (onDeleteOrDetachNode)="deleteOrDetachNode($event)">
+</app-context-menu>
